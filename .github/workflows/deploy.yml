@@ -22,6 +22,9 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
+      - name: Install font
+        run: sudo apt-get install fonts-noto
+
       - name: Checkout
         uses: actions/checkout@v4
 
