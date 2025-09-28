@@ -3,7 +3,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "marp ./slides.md --image -o ./dist/ogimage.png --allow-local-files && marp ./slides.md -o ./dist/index.html --og-image https://laddge.github.io/koken-contest-2025/ogimage.png && ncp ./assets ./dist/assets",
+    "build": "marp ./slides.md --image -o ./dist/ogimage.png --allow-local-files && marp ./slides.md -o ./dist/index.html && ncp ./assets ./dist/assets",
     "preview": "marp -pw ./slides.md -o preview.html"
   },
   "devDependencies": {

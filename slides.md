@@ -1,6 +1,8 @@
 ---
 marp: true
 theme: gaia
+title: ESP32で工研部室の鍵modをリニューアルした話
+image: https://gp.laddge.net/koken-contest-2025/ogimage.png
 style: |
   .flex { display: flex }
   .gap { gap: 1rem }
