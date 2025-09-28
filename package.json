@@ -1,0 +1,14 @@
+{
+  "name": "marp-slides",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "marp ./slides.md -o ./dist/index.html && ncp ./assets ./dist/assets",
+    "preview": "marp -pw ./slides.md -o preview.html"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.2.3",
+    "ncp": "^2.0.0"
+  },
+  "peerDependencies": {}
+}
